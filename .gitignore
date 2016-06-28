@@ -1,0 +1,6 @@
+Podfile.lock
+Pods/
+CTNetworking.xcworkspace/
+CTNetworking.xcodeproj/xcuserdata/
+CTNetworking.xcodeproj/project.xcworkspace/xcuserdata/
+.DS_Store
