@@ -16,4 +16,12 @@
 
 + (BOOL)isDevicePad;
 
+#pragma -- 内存
++ (unsigned long long)physicalMemory;
+// 获取当前设备可用内存(单位：MB）
++ (unsigned long long)availableMemory;
+// 获取当前任务所占用的内存（单位：MB）
++ (unsigned long long)usedMemory;
++ (void)logMemoryInfo;
+
 @end
